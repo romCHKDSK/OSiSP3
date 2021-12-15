@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/osboxes/projects/LR2/errors.h
+stdlib.h
+-
+
+/home/osboxes/projects/LR2/main.c
+sys/types.h
+-
+sys/wait.h
+-
+stdio.h
+-
+unistd.h
+-
+errors.h
+/home/osboxes/projects/LR2/errors.h
+
